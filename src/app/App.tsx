@@ -5,6 +5,7 @@ import {AboutPage} from "pages/AboutPage/";
 import {classNames} from "shared/lib/classNames/classNames";
 import {useTheme} from "app/providers/ThemeProvider";
 import {MainPage} from "pages/MainPage";
+import {AppRouter} from "app/providers/router";
 
 const App = () => {
   const {theme, toggleTheme} = useTheme()
@@ -14,12 +15,7 @@ const App = () => {
       <button onClick={toggleTheme}>Toggle theme</button>
       <Link to="/">Main</Link>
       <Link to="/about">About</Link>
-      <Suspense fallback="Loading">
-        <Routes>
-          <Route path="/" element={<MainPage/>}/>
-          <Route path="/about" element={<AboutPage/>}/>
-        </Routes>
-      </Suspense>
+      <AppRouter />
     </div>
   );
 };
