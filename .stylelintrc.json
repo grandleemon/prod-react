@@ -1,0 +1,11 @@
+{
+  "extends": "stylelint-config-standard-scss",
+  "rules": {
+    "declaration-empty-line-before": null,
+    "indentation": [2],
+    "selector-class-pattern": null,
+    "custom-property-empty-line-before": null,
+    "number-leading-zero": null,
+    "no-eol-whitespace": null
+  }
+}
