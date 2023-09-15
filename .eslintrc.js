@@ -2,6 +2,7 @@ module.exports = {
   env: {
     browser: true,
     es2021: true,
+    jest: true,
   },
   extends: ["plugin:react/recommended", "airbnb", "plugin:react/jsx-runtime"],
   parser: "@typescript-eslint/parser",
@@ -31,6 +32,7 @@ module.exports = {
     "no-undef": 0,
     "no-underscore-dangle": 0,
     "import/no-extraneous-dependencies": 0,
+    "max-len": ["error", { ignoreComments: true }],
   },
   globals: {
     __IS_DEV__: true,
