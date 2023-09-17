@@ -32,7 +32,7 @@ module.exports = {
     "no-undef": 0,
     "no-underscore-dangle": 0,
     "import/no-extraneous-dependencies": 0,
-    "max-len": ["error", { ignoreComments: true }],
+    "max-len": ["error", { ignoreComments: true, code: 79 }],
   },
   globals: {
     __IS_DEV__: true,
