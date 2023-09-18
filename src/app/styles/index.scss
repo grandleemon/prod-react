@@ -7,12 +7,12 @@
   font: var(--font-m);
   min-height: 100vh;
 
-  &.light{
+  &.light {
     background: var(--bg-color);
     color: var(--primary-color);
   }
 
-  &.dark{
+  &.dark {
     background: var(--bg-color);
     color: var(--primary-color);
   }
@@ -26,4 +26,3 @@
     }
   }
 }
-
