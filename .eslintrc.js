@@ -37,7 +37,7 @@ module.exports = {
     "no-undef": 0,
     "no-underscore-dangle": 0,
     "import/no-extraneous-dependencies": 0,
-    "max-len": ["error", { ignoreComments: true, code: 79 }],
+    "max-len": ["error", { ignoreComments: true, code: 120 }],
     "i18next/no-literal-string": [2, { markupOnly: true }],
   },
   globals: {
