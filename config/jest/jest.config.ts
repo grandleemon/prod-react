@@ -23,6 +23,10 @@ export default {
   testMatch: ["<rootDir>src/**/*(*.)@(spec|test).[tj]s?(x)"],
   testPathIgnorePatterns: ["\\\\node_modules\\\\"],
   rootDir: "../..",
+  setupFilesAfterEnv: ["<rootDir>config/jest/setupTests.ts"],
+  moduleNameMapper: {
+    "\\.(css|scss)$": "identity-obj-proxy",
+  },
 
   // Indicates whether the coverage information should be collected while executing the test
   // collectCoverage: false,
