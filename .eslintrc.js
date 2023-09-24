@@ -39,6 +39,7 @@ module.exports = {
     "import/no-extraneous-dependencies": 0,
     "max-len": ["error", { ignoreComments: true, code: 120 }],
     "i18next/no-literal-string": [2, { markupOnly: true }],
+    "implicit-arrow-linebreak": 0
   },
   globals: {
     __IS_DEV__: true,
